@@ -100,9 +100,14 @@ nav li {
 }
 
 .enjoy-section{
-    width: 35%;
-    padding-left: 200px;
-    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    align-items: center;
+    padding-left: 190px;
+    margin-top: 100px;
+}
+.enjoy-article{
+        display: flex;
 }
 .enjoy-title{
     font-size: 55px;
@@ -118,9 +123,31 @@ nav li {
 .architect-description{
     padding: 25px;
     border: 1px solid #f7f7f7;
-    box-shadow: 5px 5px 5px 5px rgb(240, 236, 236);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    margin-top: 25px;
+    margin-top: 30px;
+}
+.architect-image{
+    object-fit: cover;
+}
+.btn-experience {
+    background: #FF900E;
+    color: white;
+    padding: 1px 35px;
+    border-radius: 10px;
+    width: 340px;
+    z-index: 10;
+    margin-top: 1000px;
+    text-align: center;
+}
+.btn-experience h2 {
+    font-size: 65px;
+    line-height: 70px;
+}
+.btn-experience p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
 }
 

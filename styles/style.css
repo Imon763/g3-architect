@@ -48,7 +48,7 @@ nav li {
     font-size: 65px;
     font-weight: 700;
 }
-.header-description{
+.header-description, .feature-description{
     color: #727272;
 }
 .btn-primary{
@@ -66,5 +66,37 @@ nav li {
 }
 
 /* ------------header sytles end------------ */
+
+/* ------------main section styles----------- */
+
+.feature-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.image-feature{
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-left: 200px;
+    margin-top: 100px;
+}
+.quick-feature{
+    margin-top: 150px;
+}
+.feature-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #727272;
+}
+.our-feature{
+    color: #131313;
+}
+.feature{
+    color: #FF900E;
+}
+.feature-description{
+    font-size: 18px;
+}
 
 

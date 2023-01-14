@@ -17,7 +17,9 @@ header{
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 63px 240px;
+    /* padding: 63px 100px; */
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .nav-title {
@@ -35,7 +37,9 @@ nav li {
     margin-left: 50px;
 }
 
-/* ----------header section----------- */
+/* ----------nav section end--------------- */
+
+/* ----------header styles start----------- */
 
 .header-section{
     text-align: center;
@@ -44,6 +48,23 @@ nav li {
     font-size: 65px;
     font-weight: 700;
 }
-.btn-primary{
-    
+.header-description{
+    color: #727272;
 }
+.btn-primary{
+    color: white;
+    background-color: #FF900E;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+.header-image{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ------------header sytles end------------ */
+
+

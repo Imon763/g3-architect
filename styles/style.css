@@ -39,7 +39,7 @@ nav li {
 
 /* ----------nav section end--------------- */
 
-/* ----------header styles start----------- */
+/* ---------==Header section styles--------- */
 
 .header-section{
     text-align: center;
@@ -67,10 +67,9 @@ nav li {
     margin-top: 50px;
 }
 
-/* ------------header sytles end------------ */
+/* --------------HEADER STYLES END-------------- */
 
-/* ------------main section styles----------- */
-
+/* -------------feature styles start---------- */
 .feature-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -111,14 +110,14 @@ nav li {
 .enjoy-article{
         display: flex;
 }
-.enjoy-title{
+.enjoy-title, .fact-title, .sponsor-title{
     font-size: 55px;
     font-weight: 700;
     border-left: 5px solid #FF900E;
     border-radius: 8px;
     padding-left: 15px;
 }
-.enjoy-description{
+.enjoy-description, .fact-description, .sponsor-description{
     font-size: 18px;
     color: #727272;
 }
@@ -152,4 +151,62 @@ nav li {
     font-size: 25px;
     line-height: 40px;
 }
+/* ------------feature styles end------------ */
+
+/* ------------------fact styles------------ */
+
+.fact-section{
+    padding-left: 150px;
+}
+.fact-title{
+    border: 0;
+}
+.achievement-section{
+    text-align: center;
+    gap: 30px
+
+}
+.achievement-area{
+    background-color: white;
+    padding: 43px 25px;
+    margin-left: 22px;
+    font-size: 30px;
+    color: #727272;
+    border-radius: 10px;
+    border: 2px solid orange;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 100px;
+    transition: 0.3s;
+}
+.achievement-area:hover{
+    border: 3px solid #0199ff;
+    color: black;
+    background-color: rgb(226, 226, 226); 
+    cursor: pointer;
+}
+
+/* ----------------sponsor styles----------- */
+
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+.sponsor-title{
+    border: 0;
+}
+.brand-logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #131313;
+    margin: 30px 0 110px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+} 
+/* ----------sponsor styles end----------- */
+
+/* --------------footer styles------------ */
+
 

@@ -1,0 +1,49 @@
+/* -------Font styles------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+}
+
+/* ----------nav section styles---------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 63px 240px;
+}
+
+.nav-title {
+    font-weight: 700px;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* ----------header section----------- */
+
+.header-section{
+    text-align: center;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.btn-primary{
+    
+}

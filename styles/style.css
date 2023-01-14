@@ -208,5 +208,14 @@ nav li {
 /* ----------sponsor styles end----------- */
 
 /* --------------footer styles------------ */
-
+footer{
+    text-align: center;
+    font-size: 18px;
+    /* border: 5px solid red; */
+    margin: 40px 210px;
+    padding: 20px 200px;
+    background-color: antiquewhite;
+    color: #727272;
+    border-radius: 8px;
+}
 

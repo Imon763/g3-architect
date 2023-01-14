@@ -54,7 +54,9 @@ nav li {
 .btn-primary{
     color: white;
     background-color: #FF900E;
-    padding: 18px 35px;
+    font-size: 18px;
+    font-weight: 545;
+    padding: 20px 40px;
     border: 0;
     border-radius: 8px;
     margin-top: 32px;
@@ -136,7 +138,7 @@ nav li {
     color: white;
     padding: 1px 35px;
     border-radius: 10px;
-    width: 340px;
+    width: 330px;
     z-index: 10;
     margin-top: 1000px;
     text-align: center;

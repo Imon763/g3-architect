@@ -35,6 +35,8 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+    color: #727272;
+    font-weight: 300px;
 }
 
 /* ----------nav section end--------------- */

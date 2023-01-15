@@ -8,8 +8,6 @@ body{
 
 header{
     background-color: rgba(255, 144, 14, 0.1);
-    width: 1920px;
-    height: 1322px;
 }
 
 /* ----------nav section styles---------- */
@@ -38,10 +36,16 @@ nav li {
     color: #727272;
     font-weight: 300px;
 }
+#nav-icon{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-right: 150px;
+    display: none;
+}
 
 /* ----------nav section end--------------- */
 
-/* ---------==Header section styles--------- */
+/* ---------Header section styles--------- */
 
 .header-section{
     text-align: center;
@@ -67,7 +71,9 @@ nav li {
 .header-image{
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 35px;
 }
+
 
 /* --------------HEADER STYLES END-------------- */
 
@@ -225,7 +231,63 @@ footer{
 
 /* ---------------Responsive area---------------- */
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
+    nav{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+    #nav-icon{
+        display: block;
+        font-size: 25px;
+    }
+    .nav-section nav .nav-bar li{
+        display: none;
+    }
+    .header-title{
+        font-size: 35px;
+    } 
+    .header-image img{
+        width: 50%;
+    }
+    .image-feature{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+    }
+    .feature-section{
+        display: block; 
+        
+    }
+    .feature-title{
+        font-size: 35px;
+    }
+    .fact-section{
+        padding-left: 30px;
+    }
+    .fact-title, .sponsor-title{
+        font-size: 30px;
+    }
+    .achievement-area{
+        padding: 25px 15px;
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .enjoy-section{
+        padding: 10px;
+    }
     
+    .brand-logo{
+        padding: 20px 50px; 
+        display: block;
+    }
+    .footer{
+        padding: 0px 100px;
+        margin: 0px 90px;
+    }
+   
 }
 

@@ -221,3 +221,11 @@ footer{
     border-radius: 8px;
 }
 
+/* ---------------footer style end------------ */
+
+/* ---------------Responsive area---------------- */
+
+@media only screen and (min-width: 576px) {
+    
+}
+
